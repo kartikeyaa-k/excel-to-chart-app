@@ -1,4 +1,5 @@
 # Excel Data to Line Chart
+![Preview](./assets/preview.png)
 
 ## Description
 
