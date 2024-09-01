@@ -1,0 +1,37 @@
+/* Style for the chart container */
+.chart-container {
+    width: 100%;         /* Initially take full width of the parent */
+    max-width: 1000px;    /* Set the max width to match the height */
+    height: 500px;       /* Set height to ensure a square shape */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for the upload button container */
+.upload-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Style for the paper component */
+.paper-container {
+    padding: 20px;
+    margin: 20px 20px 20px 20px;
+    box-shadow: 0px 3px 5px rgba(8, 66, 255, 0.1) !important;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 16px !important; /* Force border radius */
+    overflow: hidden;
+}
+
+.upload-button {
+    background-color: rgba(8, 66, 255, 0.8) !important; /* Line chart color */
+    color: #fff; /* White text color */
+}
+
+.upload-button:hover {
+    background-color: rgba(8, 66, 255, 0.6); /* Slightly darker on hover */
+}
